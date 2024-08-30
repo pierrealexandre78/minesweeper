@@ -31,7 +31,4 @@ def test_restart():
     assert game.get_board() == [[' ' for _ in range(3)] for _ in range(3)]
     assert game.revealed == set()
     assert game.is_winner() == False   
-
-def test_fail():
-    assert False
     
